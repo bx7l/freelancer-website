@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color:#f2f2f2;
+}
+
+.nome {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: 250px;
+}
+
+.duas {
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.texto {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.creditos {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.botao1 {
+    background-color: #d03379;
+    color: white;
+    background-image: none;
+    font-family: Arial;
+    font-size: 1.30rem;
+    font-weight: 500;
+    padding: 15px 39px 15px 38px;
+    border-radius: 50px;
+    border-style: none;
+    letter-spacing: 1px;
+    box-shadow: 0 0 7px 0 rgb(208 51 121 / 70%);
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    text-transform: none;
+    margin-left: 34%;
+}
+
+.botao2 {
+    color: black;
+    padding: 12px 46px 12px 45px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d03379;
+    border-radius: 50px;
+    letter-spacing: 0;
+    font-family: Arial;
+    font-size: 1.30rem;
+    font-weight: 500;
+    margin-left: 2%;
+}
+
+.botao1:hover{
+    background-color: #c01a65;
+}
+
+.botao2:hover{
+    background-color: #d03379;
+}
